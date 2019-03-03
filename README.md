@@ -33,25 +33,29 @@ Example
 -------
 
 - Imports 
+
 ```python
 import imfeatures
 import torch
 ```
 
 - create feature extractor, here `resnet50`, with pretrained weights 
+
 ```python
 feature_extractor = imfeatures.Features('resnet50',pretrained=True)
 ```
 
 - random image of size `224x224x3` 
+
 ```python
 x = torch.randn([1,3,224,224])
 ```
 
-- features 
+- features
+
 ```python 
 features = feature_extractor(x)
 print(features.shape)
 ```
-here the features will be of shape : `[1, 2048, 1, 1]`
 
+Output features will be of shape : `[1, 2048, 1, 1]`
