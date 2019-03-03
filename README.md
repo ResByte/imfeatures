@@ -1,9 +1,6 @@
 imfeatures
 ===============================
 
-version number: 0.0.1
-author: Abhinav Dadhich
-
 Overview
 --------
 
@@ -27,7 +24,7 @@ To install use pip:
 Or clone the repo:
 
     $ git clone https://github.com/resbyte/imfeatures.git
-    
+
     $ python setup.py install
     
 
@@ -61,3 +58,8 @@ print(features.shape)
 ```
 
 Output features will be of shape : `[1, 2048, 1, 1]`
+
+Author
+-------
+
+Abhinav Dadhich
