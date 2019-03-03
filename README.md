@@ -14,6 +14,7 @@ Installation / Usage
 --------------------
 
 Dependencies:
+
 - pytorch (v >= 1.0.0)
 - torchvision
 
@@ -26,6 +27,7 @@ To install use pip:
 Or clone the repo:
 
     $ git clone https://github.com/resbyte/imfeatures.git
+    
     $ python setup.py install
     
 
